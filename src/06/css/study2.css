@@ -1,0 +1,27 @@
+* {
+    font-size: 30px;
+}
+
+span {
+    color: red;
+}
+
+#sbject {
+    color: blue !important;
+}
+
+.content {
+    color: pink;
+}
+
+.content {
+    color: brown;
+}
+
+.info-ip {
+    color: red;
+}
+
+.font-8{
+    
+}
