@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin: 0px auto;
+    width: 1100px;
+    background-color: #dadada;
+}
+
+aside {
+    position: fixed;
+    /* fixed: 내 상위 기준에 맞춤
+                즉, body영역에서 고정 */
+    right: 10px;
+    top: 18%;
+    width: 150px;
+    height: 600px;
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px;
+
+    height: 200px;
+    background-color: #faf83d;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    width: 500px;
+}
+
+main {
+    height: 1000px;
+    background-color: #f83d3d;
+}
+
+footer {
+    height: 400px;
+    background-color: #141414;
+}
