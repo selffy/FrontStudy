@@ -18,6 +18,12 @@ header {
     align-items: center;
     padding: 15px 32px;
     border-bottom: 1px solid var(--main-color);
+
+    cursor: pointer;
+}
+
+.brand-logo-border {
+    cursor: pointer;
 }
 
 nav {
@@ -65,6 +71,7 @@ nav img {
 
     width: 120px;
     height: 59px;
+    cursor: pointer;
 }
 
 .article-header-left span{
@@ -77,7 +84,9 @@ nav img {
     align-items: center;
 
     width: 64px;
-     height: 60px;   
+    height: 60px;   
+
+    cursor: pointer;
 }
 
 .article-body {
@@ -128,6 +137,7 @@ pre{
     justify-content: space-between;
     
     width: 630px;
+    cursor: pointer;
 }
 
 .article-footer-left{
@@ -159,6 +169,7 @@ pre{
     color: white;
 
     background-color: #21dc6d;;
+    cursor: pointer;
 }
 
 .section-container{
@@ -233,6 +244,8 @@ pre{
     overflow: hidden;
 
     background-color: white;
+
+    cursor: pointer;
 }
 
 footer{
