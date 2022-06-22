@@ -4,30 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gitHub</title>
+    <title>Create a New Respository</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id = "container">
-        <header>
-            <h1 class = "brand-logo-border">
-            <img src="image/brand.logo.png" alt="brand-logo">
-            </h1>
-            <div class="label-url">
-
+    <header class = "header-js-container">
+        <div>
+        <a href="https://github.com/">
+        <img src="image/brand.logo.png" alt="brand-logo"></a>
+        </div>
+        <div class = "navigation">
+        <form class = "js-site-search-form" action="/search">
+        <label><input type="text" placeholder="Search GitHub"></label>
+        </form>
+        <nav id="global-nav" class="header-nav">
+            <a href="https://github.com/pulls">Pull requests</a>
+            <a href="https://github.com/issues">Issues</a>
+            <a href="https://github.com/marketplace">Marketplace</a>
+            <a href="https://github.com/explore">Explore</a>
+        </nav>
+        </div>
+        <a href="https://github.com/notifications">
+        <img src="image/header_index/alarm.icon.png"></a>
+        <a href="">
+        <img src="image/header_index/plus.icon.png"></a>
+        <a href="">
+            <img src="image/header_index/mypage.icon.png"></a>
+    </header>
+    <main class = "main-js-container">
+        <div class = "js-container-header">
+            <h1>Create a new respository</h1>
+            <p>A repository contains all project files, including the revision history. Already have a project repository elsewhere?
+            <br><a href="https://github.com/new/import">Import a repository.</a></p>
+        </div>
+        <div class = "js-container-id">
+            <form action="id">
+                <fieldset>
+                    <label>Owner<br>
+                    <input type="text" name="" id="">
+                </label>
+                <span>/</span><br>
+                    <label>respository name<br>
+                    <input type="text" name="" id="">
+                    <p>Great repository names are short and memorable. Need inspiration? How about sturdy-waffle?</p>
+                </label></fieldset>
+                <fieldset>
+                    <label class = "description">Description<span>(optional)</span><br>
+                    <input type="text"></label>
+                    </fieldset>
+            </form>
+            <div class = "checkbox-label">
+                <label><input type="radio" name="security"><img src="image/main/public.icon.png">
+                    public
+                    <p>Anyone on the internet can see this repository. You choose who can commit.</p>
+                </label><br>
+                <label><input type="radio" name="security"><img src="image/main/privacy.icon.png">
+                    private
+                    <p>You choose who can see and commit to this repository.</p>
+                </label>
             </div>
-            <nav>
-                <span>Pull requests</span>
-                <span>Issues</span>
-                <span>Marketplace</span>
-                <span>Explore</span>
-                <img src="image/header_index/alarm.icon.png">
-                <img src="image/header_index/plus.icon.png">
-                <img src="image/header_index/mypage.icon.png">
-            </nav>
-        </header>
-    </div>
-    
+            <div class ="js-respositroy-option">
+                <div class = "option-explanation">
+                <h3>Initialize this repository with: </h3>
+                <p>Skip this step if you’re importing an existing repository.</p>
+                </div>
+                <div class = "option1">
+                    <label><input type="checkbox">Add a README file</label><br>
+                    <span>This is where you can write a long description for your project. Learn more.</span>
+                </div>
+                <div class = "option2">
+                    <h4> Add .gitignore</h4> 
+                    <P>which files not to track from a list of templates. Learn more.</P>
+                    <button>.gitignore template:None</button>
+                </div>
+                <div class ="option3">
+                    <h4>Choose a license</h4>
+                    <p>A license tells others what they can and can't do with your code. Learn more.</p>
+                    <button>License:None</button>
+                </div>
+                <div class = "warning">
+                    <img src="image/main/warnig.icon.png">
+                    You are creating a public repository in your personal account.
+                </div>
+                <button class = "crerate respository">Create respository</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="image/footer.logo.png">
+        © 2022 GitHub, Inc.
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <a href="">Security</a>
+        <a href="">Status</a>
+        <a href="">Docs</a>
+        <a href="">Contact GitHub</a>
+        <a href="">Pricing</a>
+        <a href="">API</a>
+        <a href="">Training</a>
+        <a href="">Blog</a>
+        <a href="">About</a><br>
+    </footer class = "footer-js-container">  
 </body>
 </html>
