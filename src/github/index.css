@@ -1,0 +1,184 @@
+:root{
+    --header-color: #24292F;
+    --main-color: #AFB8C1;
+    --example-color: #57606A;
+    --hyperlink-color: #0969DA;
+    --black-color: #F6F8FA;
+}
+
+.main-js-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px 32px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--header-color);
+    padding: 16px 24px;
+}
+
+.header-nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logo-border{
+    display: flex;
+    margin: 0;
+}
+
+nav{
+    margin: 10px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    margin: 10px;
+    color: #ffffff;
+}
+
+/* main */
+
+.main-js-container{
+    margin: 40px 101px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.js-container-header{
+    border-bottom: 1px solid hsla(210,18%,87%,1);
+    margin-bottom: 16px;
+}
+
+.js-container-header h1{
+    font-size: 32px;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+.js-container-header p {
+    font-size: 14px;
+
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.js-container-header p a {
+    color: #0969DA;
+}
+
+.js-container-id {
+    -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Helvetica,Arial,sans-serif,
+    "Apple Color Emoji","Segoe UI Emoji";
+}
+
+
+.js-conainer-id-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.js-conainer-id-top span {
+    padding-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    font-size: 20px;
+    float: left;
+}
+
+.js-conainer-id-bottom label{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.js-conainer-id-bottom p {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.js-conainer-id-bottom span {
+    margin: 3px;
+}
+
+.js-conainer-id-bottom input {
+    margin: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.checkbox-label .p1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.checkbox-label .p2 {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.checkbox-label-public {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.checkbox-label-public img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.public-label {
+    margin-left: 10px;
+}
+
+.checkbox-label-private {
+    display: flex;
+    align-content: center;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.checkbox-label-private input {
+    margin: 3px;
+    align-items: center;
+}
+
+.checkbox-label-private img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.private-label {
+    margin-left: 10px;
+}

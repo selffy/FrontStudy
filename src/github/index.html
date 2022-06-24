@@ -10,27 +10,26 @@
 </head>
 <body>
     <header class = "header-js-container">
-        <div>
-        <a href="https://github.com/">
-        <img src="image/brand.logo.png" alt="brand-logo"></a>
+        <div class = "header-nav1">
+            <h1 class = "brand-logo-border">
+                <img src="image/brand.logo.png" alt="brand-logo">
+            </h1>
+                    <nav class = header-link id="global-nav" class="header-nav">
+                        <label><input type="text" placeholder="Search GitHub"></label>
+                        <a href="https://github.com/pulls">Pull requests</a>
+                        <a href="https://github.com/issues">Issues</a>
+                        <a href="https://github.com/marketplace">Marketplace</a>
+                        <a href="https://githubcom/explore">Explore</a>                    
+            </nav>
         </div>
-        <div class = "navigation">
-        <form class = "js-site-search-form" action="/search">
-        <label><input type="text" placeholder="Search GitHub"></label>
-        </form>
-        <nav id="global-nav" class="header-nav">
-            <a href="https://github.com/pulls">Pull requests</a>
-            <a href="https://github.com/issues">Issues</a>
-            <a href="https://github.com/marketplace">Marketplace</a>
-            <a href="https://github.com/explore">Explore</a>
-        </nav>
+        <div class = "header-nav2">
+            <a href="https://github.com/notifications">
+            <img src="image/header_index/alarm.icon.png"></a>
+            <a href="">
+            <img src="image/header_index/plus.icon.png"></a>
+            <a href="">
+                <img src="image/header_index/mypage.icon.png"></a>
         </div>
-        <a href="https://github.com/notifications">
-        <img src="image/header_index/alarm.icon.png"></a>
-        <a href="">
-        <img src="image/header_index/plus.icon.png"></a>
-        <a href="">
-            <img src="image/header_index/mypage.icon.png"></a>
     </header>
     <main class = "main-js-container">
         <div class = "js-container-header">
@@ -39,30 +38,37 @@
             <br><a href="https://github.com/new/import">Import a repository.</a></p>
         </div>
         <div class = "js-container-id">
-            <form action="id">
-                <fieldset>
+            <div class = "js-conatiner-id-whole">
+                <div class="js-conainer-id-top">          
                     <label>Owner<br>
-                    <input type="text" name="" id="">
-                </label>
-                <span>/</span><br>
+                        <img src="image/main/id.icon.png">
+                    </label>
+                    <span>/</span><br>
                     <label>respository name<br>
-                    <input type="text" name="" id="">
-                    <p>Great repository names are short and memorable. Need inspiration? How about sturdy-waffle?</p>
-                </label></fieldset>
-                <fieldset>
+                        <input type="text" name="" id="">
+                    </label>
+                </div>
+                <p>Great repository names are short and memorable. Need inspiration? How about sturdy-waffle?</p>
+                <div class="js-conainer-id-bottom">          
                     <label class = "description">Description<span>(optional)</span><br>
-                    <input type="text"></label>
-                    </fieldset>
-            </form>
+                        <input type="text"></label>
+                    </div>
+            </div>
             <div class = "checkbox-label">
-                <label><input type="radio" name="security"><img src="image/main/public.icon.png">
-                    public
-                    <p>Anyone on the internet can see this repository. You choose who can commit.</p>
-                </label><br>
-                <label><input type="radio" name="security"><img src="image/main/privacy.icon.png">
-                    private
-                    <p>You choose who can see and commit to this repository.</p>
-                </label>
+                <div class = "checkbox-label-public">
+                    <input type="radio" name="security">
+                    <img src="image/main/public.icon.png">
+                    <label class = "public-label">public
+                    </label>
+                </div>
+                <p class = "p1">Anyone on the internet can see this repository. You choose who can commit.</p>
+                <div class = "checkbox-label-private">
+                    <input type="radio" name="security">
+                    <img src="image/main/privacy.icon.png">
+                    <label class ="private-label" > private
+                    </label>
+                </div>
+                <p class ="p2">You choose who can see and commit to this repository.</p>
             </div>
             <div class ="js-respositroy-option">
                 <div class = "option-explanation">
