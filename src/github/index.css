@@ -6,45 +6,36 @@
     --black-color: #F6F8FA;
 }
 
-.main-js-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    padding: 0px 32px;
-}
+/* main */
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--header-color);
-    padding: 16px 24px;
-}
-
-.header-nav1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .brand-logo-border{
-    display: flex;
-    margin: 0;
+    cursor: pointer;
+    margin-left: 20px;
 }
 
-nav{
-    margin: 10px;
-    float: left;
+nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;  
+    color: white;
+    width: 100%;
 }
 
-nav a{
-    margin: 10px;
-    color: #ffffff;
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
 }
+
 
 /* main */
 
@@ -252,7 +243,7 @@ nav a{
     border-top: 1px solid hsla(210,18%,87%,1);
 }
 
-.create-respository {
+.crerate-respository {
     background-color: #94d3a2;
 }
 
